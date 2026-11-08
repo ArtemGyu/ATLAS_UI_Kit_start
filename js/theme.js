@@ -3,7 +3,7 @@
  * В таком случае тёмную тему применяет CSS media query.
  * Настройку нужно сохранять в localStorage (ключ "atlas-theme").
  */
-
+const STORAGE_KEY = 'atlas-theme';
 
 const root = document.documentElement;
 const themeSelect = document.querySelector('#theme-select');
